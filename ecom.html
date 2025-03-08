@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="ecom.css">
+</head>
+<body>
+
+<!-- Header with navigation -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="/" id="home" onclick="setActivePage('home')">Home</a></li>
+            <li><a href="/courses" id="courses" onclick="setActivePage('courses')">Courses</a></li>
+            <li><a href="/dashboard" id="dashboard" onclick="setActivePage('dashboard')">Dashboard</a></li>
+            <li><a href="/profile" id="profile" onclick="setActivePage('profile')">Profile</a></li>
+            <li><a href="/login" id="login" onclick="setActivePage('login')">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Homepage hero banner -->
+<section class="hero-banner">
+    <h1>Learn New Skills with Top Courses</h1>
+    <input type="text" id="courseSearch" placeholder="Search for courses...">
+</section>
+
+<!-- Featured Courses Section -->
+<section class="featured-courses">
+    <h2>Featured Courses</h2>
+    <div class="course-list">
+        <!-- Course 1 -->
+        <div class="course-card">
+            <img src="course-image.jpg" alt="Course">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, and JavaScript to build websites.</p>
+            <button onclick="enrollNow('Web Development')">Enroll Now</button>
+            <a href="c:\Users\Arpan\Downloads\WhatsApp Image 2025-01-05 at 19.16.06.jpeg" class="details-link">View Details</a>
+        </div>
+        <!-- Course 2 -->
+        <div class="course-card">
+            <img src="course-image.jpg" alt="Course">
+            <h3>Data Science</h3>
+            <p>Learn Python, Machine Learning, and Data Analysis.</p>
+            <button onclick="enrollNow('Data Science')">Enroll Now</button>
+            <a href="c:\Users\Arpan\Downloads\WhatsApp Image 2025-01-05 at 19.15.21.jpeg" class="details-link">View Details</a>
+        </div>
+        <!-- Course 3 -->
+        <div class="course-card">
+            <img src="course-image.jpg" alt="Course">
+            <h3>Graphic Design</h3>
+            <p>Master Adobe Photoshop and Illustrator.</p>
+            <button onclick="enrollNow('Graphic Design')">Enroll Now</button>
+            <a href="c:\Users\Arpan\Downloads\WhatsApp Image 2025-01-05 at 19.15.55.jpeg" class="details-link">View Details</a>
+        </div>
+        <!-- Course 4 -->
+        <div class="course-card">
+            <img src="course-image.jpg" alt="Course">
+            <h3>Photography</h3>
+            <p>Capture stunning photos with this beginner-friendly course.</p>
+            <button onclick="enrollNow('Photography')">Enroll Now</button>
+            <a href="c:\Users\Arpan\Downloads\WhatsApp Image 2025-01-05 at 19.15.29.jpeg" class="details-link">View Details</a>
+        </div>
+        <!-- Course 5 -->
+        <div class="course-card">
+            <img src="course-image.jpg" alt="Course">
+            <h3>Digital Marketing</h3>
+            <p>Learn strategies for successful online marketing.</p>
+            <button onclick="enrollNow('Digital Marketing')">Enroll Now</button>
+            <a href="c:\Users\Arpan\Downloads\WhatsApp Image 2025-01-05 at 19.15.46.jpeg" class="details-link">View Details</a>
+        </div>
+        <!-- Course 6 -->
+        <div class="course-card">
+            <img src="course-image.jpg" alt="Course">
+            <h3>UI/UX Design</h3>
+            <p>Learn the principles of user interface and user experience design.</p>
+            <button onclick="enrollNow('UI/UX Design')">Enroll Now</button>
+            <a href="c:\Users\Arpan\Downloads\WhatsApp Image 2025-01-05 at 19.15.29.jpeg" class="details-link">View Details</a>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Arpan E-Learning Platform | All rights reserved</p>
+</footer>
+
+<script src="ecom.js"></script>
+</body>
+</html>
